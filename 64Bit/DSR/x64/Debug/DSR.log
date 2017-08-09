@@ -1,0 +1,31 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  SourceRoute.c
+  SendBuffer.c
+  RouteRequest.c
+  RouteReply.c
+  RouteError.c
+  RouteCache.c
+  PacketProcessing.c
+  Network_Layer_Ack.c
+  Malicious.c
+  MaintBuffer.c
+  DSR.c
+c:\users\tetcos.tetcos-pc\desktop\testing\dsr\dsr.c(117): warning C4013: 'fn_NetSim_DSR_MaliciousNode' undefined; assuming extern returning int
+c:\users\tetcos.tetcos-pc\desktop\testing\dsr\dsr.c(118): warning C4013: 'fn_NetSim_DSR_MaliciousProcessSourceRouteOption' undefined; assuming extern returning int
+c:\users\tetcos.tetcos-pc\desktop\testing\dsr\dsr.c(127): warning C4013: 'fn_NetSim_DSR_MaliciousRouteAddToCache' undefined; assuming extern returning int
+  CheckRouteFound.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\TETCOS.TETCOS-PC\Desktop\Testing\DSR\..\Dll\DSR.dll) does not match the Linker's OutputFile property value (C:\Users\TETCOS.TETCOS-PC\Desktop\Testing\Dll\libDSR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(DSR) does not match the Linker's OutputFile property value (libDSR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  List.lib(List.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\Dll\DSR.lib and object ..\Dll\DSR.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+List.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'List.lib(List.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\Testing\Dll\List.pdb'; linking object as if no debug info
+DSR.lib(DSR.obj) : warning LNK4099: PDB 'DSRLib.pdb' was not found with 'DSR.lib(DSR.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\Testing\Dll\DSRLib.pdb'; linking object as if no debug info
+DSR.lib(LinkLayerAck.obj) : warning LNK4099: PDB 'DSRLib.pdb' was not found with 'DSR.lib(LinkLayerAck.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\Testing\Dll\DSRLib.pdb'; linking object as if no debug info
+  DSR.vcxproj -> C:\Users\TETCOS.TETCOS-PC\Desktop\Testing\DSR\..\Dll\DSR.dll
+  DSR.vcxproj -> ..\Dll\DSR.pdb (Full PDB)
